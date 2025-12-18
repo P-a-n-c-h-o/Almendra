@@ -1,4 +1,4 @@
-# Copilot Instructions — Foody (static template)
+# Copilot Instructions — Almendra (static template)
 
 ## Quick summary ✅
 - This is a small **static Bootstrap template** (HTML, CSS, JS). No package.json, no test suite, and no build system checked in.

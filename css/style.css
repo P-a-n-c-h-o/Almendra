@@ -105,7 +105,7 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    color: #555;
     font-weight: 500;
     outline: none;
 }
@@ -284,6 +284,22 @@
         font-size: 1.8rem;
     }
 }
+
+
+
+@media (max-width: 576px) {
+  .page-header {
+    padding-top: 4rem;   /* antes: 12rem */
+    padding-bottom: 2rem; /* opcional */
+  }
+
+  .page-header .display-3 {
+    font-size: calc(1.25rem + 2vw); /* más pequeño en móvil */
+       margin-top: 0; /* elimina espacio extra */
+  }
+}
+
+
 
 
 /*** Section Header ***/
